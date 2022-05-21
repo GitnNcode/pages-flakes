@@ -1,7 +1,7 @@
 let snowflakes = [];
 let circlecolor;
 function setup() {
-  createCanvas(1450, 550);
+  createCanvas(windowWidth, windowHeight);
   let amount = random(width / 4, width);
   for (let i = 0; i < amount; i++) {
     let randx = random(width);
